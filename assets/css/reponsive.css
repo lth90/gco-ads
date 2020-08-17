@@ -116,7 +116,10 @@
 	}
 	.art-introduces .banner-content {
 		padding-top: 10px;
-		padding-right: 88px;
+		padding-right: 0;
+	}
+	.banner-content .content {
+		padding-right: 0;
 	}
 	.art-introduces .banner-content p {
 		line-height: 1.6;
@@ -131,6 +134,7 @@
 	    border: 1px solid #e5e5e5;
 	    padding: 25px 20px 55px;
 	    transition: all 400ms;
+	    height: 100%;
 	}
 	.service-box:hover {
 		border-color: rgb(0,0,0,0.22);
@@ -232,10 +236,48 @@
 	.feature-text {
 		font-size: 23px;
 	}
+
+	.slick-testimonials .slick-arrow {
+		display: block !important;
+	}
+	.testimonial-box {
+	    padding: 68px 0 58px;
+	}
+	.testimonial-author-office {
+		margin-bottom: 35px;
+	}
+	.testimonial-comment {
+		margin-bottom: 0;
+		font-size: 21px;
+		letter-spacing: 0.01em;
+		line-height: 1.6;
+	}
+
+	footer {
+	    padding-top: 50px;
+	}
 }
 
 @media (min-width: 1200px) {
 	.container {
 	    max-width: 1210px;
+	}
+
+	.art-introduces .banner-content {
+		padding-right: 88px;
+	}
+
+	footer {
+	    padding-top: 90px;
+	}
+	.footer-main {
+	    padding: 38px 0;
+	}
+	.footer-title .title {
+		margin-bottom: 20px;
+	}
+	.footer-bottom {
+	    padding-top: 70px;
+	    padding-bottom: 55px;
 	}
 }
