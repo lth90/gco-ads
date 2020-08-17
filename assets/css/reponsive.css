@@ -1,0 +1,241 @@
+
+@media (min-width: 576px) {
+	.container {
+	    max-width: 540px;
+	}
+
+	.login-form .bottom-form {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.art-digital-marketing .banner-image {
+		margin: 0 -5px 0 -25px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+	    max-width: 720px;
+	}
+
+	.services-box {
+	    grid-template-columns: 1fr 1fr;
+	}
+
+	.art-overall-marketing .services-box,
+	.art-choose-us .services-box {
+	    grid-template-columns: 1fr;
+	}
+
+	.projects-box {
+		display: flex;
+		margin: 0 -15px;
+	}
+	.projects-box .item {
+		width: 33.3333%;
+		padding: 0 15px;
+	}
+
+	.art-digital-marketing .banner-image {
+	    margin: 0 -5px 0 -35px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+	    max-width: 960px;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #0066ff;
+	}
+
+	.title {
+		line-height: 1.2;
+		font-size: 37px;
+	}
+	.title-icon {
+	    margin-bottom: 20px;
+	}
+
+	.btn {
+		opacity: 0.8;
+	}
+	.btn:hover {
+		color: #fff;
+		opacity: 1;
+	}
+
+	.main-site {
+		padding: 85px 0;
+	}
+
+	.main-bar {
+		padding-top: 99px;
+	}
+
+	.art-digital-marketing .row {
+	    flex-direction: row;
+	}
+	.art-digital-marketing .banner-content {
+	    padding-top: 44px;
+	}
+	.art-digital-marketing .title {
+		font-size: 70px;
+		margin-bottom: 20px;
+	}
+	.art-digital-marketing .title-box {
+		margin-bottom: 77px;
+	}
+
+	.brands-box {
+		align-items: center;
+		padding: 90px 0 50px;
+	}
+	.brands-box .item {
+		width: auto;
+	}
+	.brands-box .item:first-child {
+	    text-align: left;
+	}
+	.brands-box .item:last-child {
+	    text-align: right;
+	}
+	.brands-box .item:nth-child(3n),
+	.brands-box .item:nth-child(3n + 1) {
+	    text-align: center;
+	}
+
+	.art-introduces {
+		background: none;
+	}
+	.art-introduces .title {
+	    margin-bottom: 10px;
+	}
+	.art-introduces .banner-content {
+		padding-top: 10px;
+		padding-right: 88px;
+	}
+	.art-introduces .banner-content p {
+		line-height: 1.6;
+		letter-spacing: 0.01;
+		margin-bottom: 0;
+	}
+
+	.services-box {
+	    grid-template-columns: 1fr 1fr 1fr;
+	}
+	.service-box {
+	    border: 1px solid #e5e5e5;
+	    padding: 25px 20px 55px;
+	    transition: all 400ms;
+	}
+	.service-box:hover {
+		border-color: rgb(0,0,0,0.22);
+	}
+	.service-image {
+		margin-bottom: 27px;
+	}
+	.service-box h4 a {
+		text-transform: unset;
+	}
+	.service-box h4 a:hover {
+		color: #0066ff;
+	}
+
+	.art-projects {
+		background: none;
+		padding-top: 55px;
+		padding-bottom: 62px;
+	}
+	.projects-title {
+		position: relative;
+	}
+	.projects-title a {
+		font-size: 17px;
+		color: #191919;
+		font-weight: 500;
+		position: absolute;
+		bottom: 5px;
+		right: 0;
+	}
+	.project-box {
+		background: none;
+		position: relative;
+	}
+	.project-content {
+		text-align: center;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #ffb5b5;
+		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(0);
+		transition: all 400ms;
+	}
+	.project-box:hover .project-content {
+		opacity: 1;
+		visibility: initial;
+		transform: scale(1);
+	}
+	.project-name {
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+	.project-link {
+		font-size: 31px;
+		font-weight: 700;
+		text-transform: capitalize;
+		color: #191919;
+		letter-spacing: 0.01em;
+		position: relative;
+		line-height: 1.2;
+		display: inline-block;
+	}
+	.project-link:after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		background-color: #191919;
+		display: block;
+		transition: all 400ms;
+	}
+	.project-link:hover:after {
+		background-color: #0066ff;
+	}
+
+	.art-features {
+		background: none;
+	}
+	.features-content {
+	    background: transparent linear-gradient(167deg, #EEF0E3 0%, #C6E7DE 100%) 0% 0% no-repeat padding-box;
+	}
+	.features-box {
+	    grid-template-columns: 1fr 1fr 1fr 1fr;
+	    padding: 40px 0;
+	}
+	.feature-number {
+	    font-size: 60px;
+	    margin-bottom: 18px;
+	}
+	.feature-text {
+		font-size: 23px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 1210px;
+	}
+}
